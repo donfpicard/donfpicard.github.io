@@ -77,13 +77,21 @@ export default {
     // To see the sample configuration of all possible objects please consult
     // ./sample-provisioning-info.js on the same folder
     provisioningInfo: {
+        'role': [
+            {
+                'name': 'User',
+                'description': 'A test role used for testing the install wizard!',
+                'permissions': ['premium_app_permission'],
+                'assignToSelf': true
+            }
+        ],
         'oauth-client': [
             {
                 'name': 'OAuth_Client',
                 'description': 'Generated Client that\'s passed to the App Backend',
-                'roles': ['User', 'Supervisor'],
+                'roles': ['User'],
                 'authorizedGrantType': 'CLIENT_CREDENTIALS',
-                /** NOTE: 
+                /** NOTE:
                  * If you want to learn how you can send the created credentials back to your system,
                  * Please read about the Post Custom Setup module here:
                  * https://developer.genesys.cloud/appfoundry/premium-app-wizard/7-custom-setup#post-custom-setup-module
@@ -92,13 +100,13 @@ export default {
         ],
         'audiohook': [
             {
-                'name': 'Audiohook_Install_Wizard_Test',
-                'autoEnable': true,
+                'name': 'Audiohook',
+                'autoEnable': false,
                 'channel': 'both',
-                'connectionUri': 'wss://PLACEHOLDER',
+                'connectionUri': '',
                 'credentials': {
-                    'apiKey': 'PLACEHOLDER',
-                    'clientSecret': 'placeholder'
+                    'apiKey': '',
+                    'clientSecret': ''
                 }
             }
         ]
