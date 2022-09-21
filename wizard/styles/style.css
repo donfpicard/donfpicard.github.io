@@ -86,7 +86,7 @@ p {
 }
 
 .success {
-    color: #00AE9E;
+    color: #33606E;
     margin: 6px;
 }
 
@@ -95,7 +95,7 @@ p {
 }
 
 .txt-product-available {
-    color: #00AE9E;
+    color: #33606E;
 }
 
 .fail {
@@ -135,13 +135,13 @@ button {
     cursor: pointer;
     outline: 0;
 
-    background-color: #00AE9E;
+    background-color: #F26B6C;
     color: #fff;
 }
 
 
 button:hover {
-    background-color: #00B8AA;
+    background-color: #f7a6a6;
 }
 
 button.btn-prev {
@@ -172,7 +172,7 @@ button.btn-prev:hover {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    color: #3B90AA;
+    color: #33606E;
     font-family: "Roboto","Lato", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
 }
 
@@ -197,7 +197,7 @@ button.btn-prev:hover {
 
 .message-title{
     padding: 10px;
-    color: #00AE9E;
+    color: #33606E;
     font-size: 1em;
     font-weight: bold;
     text-align: left;
@@ -210,7 +210,7 @@ button.btn-prev:hover {
 }
 
 hr {
-    border-top: 2px solid #00AE9E;
+    border-top: 2px solid #33606E;
     margin-top: 10px;
 }
 
@@ -267,6 +267,6 @@ hr {
 }
 
 .provisioned-link {
-    color: #00AE9E;
+    color: #33606E;
     text-decoration: none;
 }

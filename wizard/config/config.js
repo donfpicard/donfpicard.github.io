@@ -7,7 +7,7 @@ export default {
 
     // The actual URL of the landing page of your web app or your web site (when wizard has been run).
     // previously - defined as premiumAppURL
-    redirectURLOnWizardCompleted: 'https://donfpicard.github.io/',
+    redirectURLOnWizardCompleted: 'https://cogitocorp.com/successful-genesys-cloud-cx-integration/',
     //redirectURLOnWizardCompleted: 'http://localhost:8080/premium-app-sample/index.html',
     //redirectURLOnWizardCompleted: 'https://mypurecloud.github.io/purecloud-premium-app/premium-app-sample/index.html',
     redirectURLWithParams: true,
@@ -68,7 +68,7 @@ export default {
 
     // Allows you to deprovision the installed object by adding the query parameter 'uninstall=true'
     // in the wizard URL. This is merely for testing and should be 'false' in production.
-    enableUninstall: true,
+    enableUninstall: false,
 
     // To be added to names of Genesys Cloud objects created by the wizard
     prefix: 'COGITO_',
